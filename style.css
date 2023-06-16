@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    border: 1px solid ;
+    background-color:whitesmoke;
+    height: 60px;
+    padding: 10px;
+}
+.nav-content{
+    /* width: 95%; */
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+.nav-content .logo{
+    display: flex;
+    font-size: 20px;
+
+}
+.nav-content img{
+    height: 45px;
+}
+.nav-content h3{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #707070;
+}
+.search-bar{
+    position: relative;
+    background-color: aliceblue;
+    float: right;
+    margin-right: 50px;
+}
+.search-bar button img{
+    height: 30px;
+    padding: 5px;
+}
+.search-bar input{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 295px;
+    height: 23px;
+    padding: 10px;
+    border: none;
+
+}
+.nav-content button{
+    cursor: pointer;
+    position: absolute;
+    height: 43px;
+    border: none;
+    background-color: #009788;
+}
+.nav-content h3 span{
+    color: #009788;
+
+}
+.menu-bar li{
+    margin: 0px 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.nav-content .logo{
+    float: left;
+    margin-left: 20px;
+}
+.menu-bar{
+    /* float: right; */
+    text-align: center;
+    margin-top: 10px;
+}
+.menu-bar li{
+    display: inline-block;
+}
