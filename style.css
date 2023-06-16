@@ -7,6 +7,7 @@
     background-color:whitesmoke;
     height: 60px;
     padding: 10px;
+    border: none;
 }
 .nav-content{
     /* width: 95%; */
@@ -48,6 +49,7 @@
     height: 23px;
     padding: 10px;
     border: none;
+    border-radius: 20px 0px 0px 20px;
 
 }
 .nav-content button{
@@ -81,7 +83,341 @@
     /* float: right; */
     text-align: center;
     margin-top: 10px;
+    border: none;
 }
 .menu-bar li{
     display: inline-block;
+}
+
+.menubar-sm-device{
+    float: right;
+    display: none;
+}
+#search-bar{
+    display: none;
+}
+#search-bar input{
+    border-radius: 20px 0px 0px 20px;
+}
+/* #search-bar button{
+    border-radius: 0px 20px 20px 0px;
+}
+.search-bar button{
+    border-radius: 0px 20px 20px 0px;
+} */
+
+
+
+
+
+
+                        /* Responsive  */
+
+ 
+                        /* Style for mobile device */
+
+/* style for small-large mobile device */
+
+@media screen and (max-width:425px) {
+
+    .nav-content .logo{
+        margin-left: 0px;
+    }
+    .nav-content h3{
+        font-size: 20px;
+    }
+    .nav-content img {
+        height: 40px;
+    }
+    .menubar-sm-device {
+        margin-right: 10px;
+    }
+    .menubar-sm-device{
+        font-size: 25px;
+        display: inline-block;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    .menu-bar ul {
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    #search-bar{
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        left: 15px;
+        right: 15px;
+    }
+    #search-bar input{
+        width: 85%;
+    }
+
+
+    
+}
+
+/* style from large deveice to tablet */
+
+@media  (min-width:425px) and (max-width:570px) {
+
+    .nav-content .logo{
+        margin-left: 0px;
+    }
+    .nav-content h3{
+        font-size: 20px;
+    }
+    .nav-content img {
+        height: 40px;
+    }
+    .menubar-sm-device {
+        margin-right: 10px;
+    }
+    .menubar-sm-device{
+        font-size: 30px;
+        display: inline-block;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    .menu-bar ul {
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    #search-bar{
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        left: 15px;
+        right: 15px;
+    }
+    #search-bar input{
+        width: 85%;
+    }
+}
+
+@media (min-width:570px) and (max-width:768px) {
+
+    .nav-content .logo{
+        margin-left: 0px;
+        /* display: none; */
+    }
+    .nav-content h3{
+        font-size: 20px;
+    }
+    .nav-content img {
+        height: 40px;
+    }
+    .menubar-sm-device {
+        margin-right: 10px;
+    }
+    .menubar-sm-device{
+        font-size: 30px;
+        display: inline-block;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    .menu-bar ul {
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    #search-bar{
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        left: 15px;
+        right: 15px;
+    }
+    #search-bar input{
+        width: 85%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:815px) {
+
+    .nav-content .logo{
+        margin-left: 20px;
+        /* display: none; */
+    }
+    .nav-content h3{
+        font-size: 22px;
+    }
+    .nav-content img {
+        height: 45px;
+    }
+    .menubar-sm-device {
+        margin-right: 60px;
+    }
+    .menubar-sm-device{
+        font-size: 30px;
+        display: inline-block;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    .menu-bar ul {
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    #search-bar{
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        right: 20px;
+    }
+    #search-bar input{
+        width: 50%;
+    }
+}
+
+
+/* Style form tablets to small width laptop */
+
+@media  (min-width:815px) and (max-width:980px) {
+
+    .nav-content .logo{
+        margin-left: 0px;
+        /* display: none; */
+    }
+    .nav-content img {
+        height: 33px;
+    }
+    .nav-content h3 {
+        padding-top: 7px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .menu-bar li{
+        margin: 0px 7px;
+    }
+    .menu-bar li a{
+        font-size: 15px !important;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    #search-bar{
+        display: none;
+    }
+
+    .menu-bar ul{
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        right: 20px;
+        
+    }
+ 
+    
+}
+@media (min-width:980px) and (max-width:1024px)  {
+    .nav-content{
+        padding: 10px;
+    }
+
+    .nav-content .logo{
+        margin-left: 15px;
+        /* display: none; */
+    }
+    .nav-content img {
+        height: 40px;
+    }
+    .nav-content h3 {
+        padding-top: 7px;
+        font-size: 23px;
+        letter-spacing: 2px;
+    }
+    .menu-bar li{
+        margin: 0px 6px;
+    }
+    .menu-bar li a{
+        font-size: 15px !important;
+    }
+    .nav-bar{
+        padding: 0px;
+    }
+    .menu-bar li a{
+        font-size: 15px !important;
+    }
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    #search-bar{
+        display: none;
+    }
+
+    .menu-bar ul{
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        right: 20px;
+        
+    }
+    
+
+    
+}
+
+/* Style form small width laptop to large width laptop */
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .nav-bar{
+        height: 100px;
+        position: relative;
+    }
+    #search-bar{
+        display: none;
+    }
+
+    .menu-bar ul{
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        right: 20px;
+        
+    }
+    
+}
+
+@media (min-width:1281px) and (max-width:1400px) {
+
+    .nav-content .logo{
+        margin-left: 0px;
+    }
+    .search-bar input{
+        width: 190px;
+    }
+    .nav-content h3 {
+        margin-left: 0px;
+    }
+    .menu-bar li {
+        margin: 0px 7px;
+    }
+
+}
+
+
+
+/* Style for pc
+ */
+@media screen and (min-width:1024px) {
+    
 }
